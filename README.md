@@ -289,5 +289,4 @@ Developed as a full-stack assessment project demonstrating modern web developmen
 
 ---
 
-**Note**: This system is designed for development and demonstration purposes. For production use, consider implementing the suggested scalability improvements and security measures. #   L o g - I n g e s t i o n - a n d - A n a l y t i c s - S y s t e m  
- 
+**Note**: This system is designed for development and demonstration purposes. For production use, consider implementing the suggested scalability improvements and security measures.
