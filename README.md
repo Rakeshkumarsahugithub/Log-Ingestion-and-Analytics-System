@@ -1,4 +1,4 @@
-# LogIngio - Real-time Log Ingestion and Analytics System
+# Real-time Log Ingestion and Analytics System using WebSocket
 
 A modern, full-stack log management system built with Node.js, Express, React, and WebSocket for real-time log ingestion, querying, and analytics. This project demonstrates scalable architecture patterns for handling structured log data with real-time updates and comprehensive filtering capabilities. Think of it like a smart log viewer that updates instantly when new logs arrive. 
 
@@ -248,45 +248,5 @@ npm start
 cd frontend
 npm run build
 # Serve dist/ folder with nginx or similar
-```
-
-## 🔮 Future Enhancements
-
-### Scalability Improvements
-1. **Database Integration**: Replace file storage with MySQL/PostgreSQL
-2. **Caching Layer**: Implement Redis for frequently accessed data
-3. **Message Queue**: Add RabbitMQ/Kafka for high-volume log ingestion
-4. **Microservices**: Split into separate services (ingestion, query, analytics)
-
-### Feature Additions
-1. **User Authentication**: Role-based access control
-2. **Log Retention**: Automatic cleanup and archival policies
-3. **Export Functionality**: CSV/JSON export of filtered results
-4. **Alerting System**: Email/Slack notifications for error thresholds
-5. **Advanced Analytics**: Machine learning insights and anomaly detection
-
-### Performance Optimizations
-1. **Pagination**: Server-side pagination for large datasets
-2. **Indexing**: Database indexes for faster queries
-3. **Caching**: Redis caching for expensive operations
-4. **CDN**: Static asset delivery optimization
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-Developed as a full-stack assessment project demonstrating modern web development practices, real-time communication, and scalable architecture patterns.
-
----
 
 **Note**: This system is designed for development and demonstration purposes. For production use, consider implementing the suggested scalability improvements and security measures.
