@@ -116,7 +116,7 @@ function LogIngestor({ onSuccess }) {
           onKeyDown={handleDropdownKeyDown}
           aria-haspopup="listbox"
           aria-expanded={dropdownOpen}
-          // Restore previous inline style for color and background
+          
           style={{
             width: '100%',
             minWidth: 180,
