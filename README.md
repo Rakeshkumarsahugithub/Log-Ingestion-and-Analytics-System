@@ -7,7 +7,7 @@ A modern, full-stack log management system built with Node.js, Express, React, a
 </div>
 <div style="display: flex; justify-content: space-between; align-items: center;">
   <img src="https://github.com/user-attachments/assets/7082b7b7-bc65-488d-bc5f-39a714f8bd38" width="330" height="650" style="margin-right: 10px;">
-  <img src="https://github.com/user-attachments/assets/069fe048-65b4-4012-9d76-ad430b3d68cf" width="500" height="650">
+  <img src="https://github.com/user-attachments/assets/069fe048-65b4-4012-9d76-ad430b3d68cf" width="470" height="650">
 </div>
 
 
