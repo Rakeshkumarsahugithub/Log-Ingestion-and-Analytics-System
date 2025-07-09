@@ -2,12 +2,12 @@
 
 A modern, full-stack log management system built with Node.js, Express, React, and WebSocket for real-time log ingestion, querying, and analytics. This project demonstrates scalable architecture patterns for handling structured log data with real-time updates and comprehensive filtering capabilities. Think of it like a smart log viewer that updates instantly when new logs arrive. 
 <div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/19690dba-afea-445d-abce-c5a4a2353279" width="500" height="650" style="margin-right: 10px;">
-  <img src="https://github.com/user-attachments/assets/6c4701b5-4427-4def-9e9f-6512267a7762" width="500" height="650">
+  <img src="https://github.com/user-attachments/assets/19690dba-afea-445d-abce-c5a4a2353279" width="300" height="650" style="margin-right: 10px;">
+  <img src="https://github.com/user-attachments/assets/6c4701b5-4427-4def-9e9f-6512267a7762" width="300" height="650">
 </div>
 <div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/7082b7b7-bc65-488d-bc5f-39a714f8bd38" width="500" height="650" style="margin-right: 10px;">
-  <img src="https://github.com/user-attachments/assets/069fe048-65b4-4012-9d76-ad430b3d68cf" width="500" height="650">
+  <img src="https://github.com/user-attachments/assets/7082b7b7-bc65-488d-bc5f-39a714f8bd38" width="300" height="650" style="margin-right: 10px;">
+  <img src="https://github.com/user-attachments/assets/069fe048-65b4-4012-9d76-ad430b3d68cf" width="300" height="650">
 </div>
 
 
