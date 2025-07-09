@@ -1,4 +1,4 @@
-# LogIngio - Real-time Log Ingestion and Analytics System
+# Real-time Log Ingestion and Analytics System using WebSocket
 
 A modern, full-stack log management system built with Node.js, Express, React, and WebSocket for real-time log ingestion, querying, and analytics. This project demonstrates scalable architecture patterns for handling structured log data with real-time updates and comprehensive filtering capabilities. Think of it like a smart log viewer that updates instantly when new logs arrive. 
 
