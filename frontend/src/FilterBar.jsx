@@ -54,7 +54,11 @@ function FilterBar({ filters, setFilters }) {
   };
 
   return (
-    <div className="filter-bar" style={{ width: '100%', gap: 18, alignItems: 'center', flexDirection: 'column' }}>
+     <div className="filter-bar" style={{ marginBottom: 18 }}>
+      <h3 style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 10, color: '#2563eb' }}>
+        <span role="img" aria-label="filter" style={{ fontSize: 22 }}>🔎</span>
+        Filter Logs
+      </h3>
       <div style={{ display: 'flex', gap: 10, marginBottom: 8, width: '100%', justifyContent: 'flex-start' }}>
         {levels.map(l => (
           <button
