@@ -1,0 +1,518 @@
+[
+  {
+    "level": "info",
+    "message": "User logged in successfully",
+    "resourceId": "server-001",
+    "timestamp": "2025-07-08T21:45",
+    "traceId": "trace-001",
+    "spanId": "span-001",
+    "commit": "abcd123",
+    "metadata": {
+      "ip": "192.168.1.1"
+    }
+  },
+  {
+    "level": "error",
+    "message": "Failed to connect to database",
+    "resourceId": "server-002",
+    "timestamp": "2025-07-08T22:00",
+    "traceId": "trace-002",
+    "spanId": "span-002",
+    "commit": "efgh456",
+    "metadata": {
+      "errorCode": "DB_CONN_ERR"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "API rate limit exceeded",
+    "resourceId": "server-003",
+    "timestamp": "2025-07-08T22:15",
+    "traceId": "trace-003",
+    "spanId": "span-003",
+    "commit": "ijkl789",
+    "metadata": {
+      "userId": "user123"
+    }
+  },
+  {
+    "level": "info",
+    "message": "File uploaded successfully",
+    "resourceId": "server-004",
+    "timestamp": "2025-07-08T22:30",
+    "traceId": "trace-004",
+    "spanId": "span-004",
+    "commit": "mnop012",
+    "metadata": {
+      "fileSize": "20MB"
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Debugging issue with request #456",
+    "resourceId": "server-005",
+    "timestamp": "2025-07-08T22:45",
+    "traceId": "trace-005",
+    "spanId": "span-005",
+    "commit": "qrst345",
+    "metadata": {
+      "debugInfo": "error parsing JSON"
+    }
+  },
+  {
+    "level": "error",
+    "message": "Request timeout",
+    "resourceId": "server-006",
+    "timestamp": "2025-07-08T23:00",
+    "traceId": "trace-006",
+    "spanId": "span-006",
+    "commit": "uvwx678",
+    "metadata": {
+      "timeoutLimit": "30s"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "Invalid user input",
+    "resourceId": "server-007",
+    "timestamp": "2025-07-08T23:15",
+    "traceId": "trace-007",
+    "spanId": "span-007",
+    "commit": "yzab901",
+    "metadata": {
+      "userId": "user456"
+    }
+  },
+  {
+    "level": "info",
+    "message": "Server restarted successfully",
+    "resourceId": "server-008",
+    "timestamp": "2025-07-08T23:30",
+    "traceId": "trace-008",
+    "spanId": "span-008",
+    "commit": "abcd678",
+    "metadata": {
+      "reason": "scheduled maintenance"
+    }
+  },
+  {
+    "level": "error",
+    "message": "Payment gateway failure",
+    "resourceId": "server-009",
+    "timestamp": "2025-07-08T23:45",
+    "traceId": "trace-009",
+    "spanId": "span-009",
+    "commit": "efgh234",
+    "metadata": {
+      "transactionId": "txn12345"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "Low disk space warning",
+    "resourceId": "server-010",
+    "timestamp": "2025-07-09T00:00",
+    "traceId": "trace-010",
+    "spanId": "span-010",
+    "commit": "ijkl567",
+    "metadata": {
+      "availableSpace": "5GB"
+    }
+  },
+  {
+    "level": "info",
+    "message": "User logout successful",
+    "resourceId": "server-011",
+    "timestamp": "2025-07-09T00:15",
+    "traceId": "trace-011",
+    "spanId": "span-011",
+    "commit": "mnop890",
+    "metadata": {
+      "userId": "user789"
+    }
+  },
+  {
+    "level": "error",
+    "message": "File not found",
+    "resourceId": "server-012",
+    "timestamp": "2025-07-09T00:30",
+    "traceId": "trace-012",
+    "spanId": "span-012",
+    "commit": "qrst123",
+    "metadata": {
+      "filePath": "/files/abc.txt"
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Session data loaded",
+    "resourceId": "server-013",
+    "timestamp": "2025-07-09T00:45",
+    "traceId": "trace-013",
+    "spanId": "span-013",
+    "commit": "uvwx456",
+    "metadata": {
+      "sessionId": "session456"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "SSL certificate expired",
+    "resourceId": "server-014",
+    "timestamp": "2025-07-09T01:00",
+    "traceId": "trace-014",
+    "spanId": "span-014",
+    "commit": "yzab789",
+    "metadata": {
+      "certExpiryDate": "2025-06-30"
+    }
+  },
+  {
+    "level": "info",
+    "message": "Backup completed successfully",
+    "resourceId": "server-015",
+    "timestamp": "2025-07-09T01:15",
+    "traceId": "trace-015",
+    "spanId": "span-015",
+    "commit": "abcd345",
+    "metadata": {
+      "backupSize": "10GB"
+    }
+  },
+  {
+    "level": "error",
+    "message": "Invalid credentials",
+    "resourceId": "server-016",
+    "timestamp": "2025-07-09T01:30",
+    "traceId": "trace-016",
+    "spanId": "span-016",
+    "commit": "efgh678",
+    "metadata": {
+      "username": "user123"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "Connection lost",
+    "resourceId": "server-017",
+    "timestamp": "2025-07-09T01:45",
+    "traceId": "trace-017",
+    "spanId": "span-017",
+    "commit": "ijkl901",
+    "metadata": {
+      "reconnectAttempts": 5
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Session timed out",
+    "resourceId": "server-018",
+    "timestamp": "2025-07-09T02:00",
+    "traceId": "trace-018",
+    "spanId": "span-018",
+    "commit": "mnop234",
+    "metadata": {
+      "sessionId": "session789"
+    }
+  },
+  {
+    "level": "info",
+    "message": "Data migration started",
+    "resourceId": "server-019",
+    "timestamp": "2025-07-09T02:15",
+    "traceId": "trace-019",
+    "spanId": "span-019",
+    "commit": "qrst567",
+    "metadata": {
+      "migrationId": "mig123"
+    }
+  },
+  {
+    "level": "error",
+    "message": "Memory allocation failure",
+    "resourceId": "server-020",
+    "timestamp": "2025-07-09T02:30",
+    "traceId": "trace-020",
+    "spanId": "span-020",
+    "commit": "uvwx890",
+    "metadata": {
+      "errorDetails": "out of memory"
+    }
+    
+  },
+    {
+    "level": "info",
+    "message": "New user registered successfully",
+    "resourceId": "server-021",
+    "timestamp": "2025-07-09T02:45",
+    "traceId": "trace-021",
+    "spanId": "span-021",
+    "commit": "abcd234",
+    "metadata": {
+      "userId": "user001"
+    }
+  },
+  {
+    "level": "error",
+    "message": "Database connection timeout",
+    "resourceId": "server-022",
+    "timestamp": "2025-07-09T03:00",
+    "traceId": "trace-022",
+    "spanId": "span-022",
+    "commit": "efgh345",
+    "metadata": {
+      "timeoutLimit": "45s"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "API key expired",
+    "resourceId": "server-023",
+    "timestamp": "2025-07-09T03:15",
+    "traceId": "trace-023",
+    "spanId": "span-023",
+    "commit": "ijkl456",
+    "metadata": {
+      "apiKey": "APIKEY12345"
+    }
+  },
+  {
+    "level": "info",
+    "message": "Password reset request",
+    "resourceId": "server-024",
+    "timestamp": "2025-07-09T03:30",
+    "traceId": "trace-024",
+    "spanId": "span-024",
+    "commit": "mnop567",
+    "metadata": {
+      "userId": "user234"
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Cache cleared",
+    "resourceId": "server-025",
+    "timestamp": "2025-07-09T03:45",
+    "traceId": "trace-025",
+    "spanId": "span-025",
+    "commit": "qrst678",
+    "metadata": {
+      "cacheName": "userSessionCache"
+    }
+  },
+  {
+    "level": "error",
+    "message": "Unauthorized access attempt",
+    "resourceId": "server-026",
+    "timestamp": "2025-07-09T04:00",
+    "traceId": "trace-026",
+    "spanId": "span-026",
+    "commit": "uvwx789",
+    "metadata": {
+      "username": "unknownUser"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "High memory usage detected",
+    "resourceId": "server-027",
+    "timestamp": "2025-07-09T04:15",
+    "traceId": "trace-027",
+    "spanId": "span-027",
+    "commit": "yzab890",
+    "metadata": {
+      "memoryUsage": "85%"
+    }
+  },
+  {
+    "level": "info",
+    "message": "Scheduled backup started",
+    "resourceId": "server-028",
+    "timestamp": "2025-07-09T04:30",
+    "traceId": "trace-028",
+    "spanId": "span-028",
+    "commit": "abcd901",
+    "metadata": {
+      "backupType": "incremental"
+    }
+  },
+  {
+    "level": "error",
+    "message": "Server crash due to unhandled exception",
+    "resourceId": "server-029",
+    "timestamp": "2025-07-09T04:45",
+    "traceId": "trace-029",
+    "spanId": "span-029",
+    "commit": "efgh012",
+    "metadata": {
+      "exceptionDetails": "NullPointerException"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "Service degradation detected",
+    "resourceId": "server-030",
+    "timestamp": "2025-07-09T05:00",
+    "traceId": "trace-030",
+    "spanId": "span-030",
+    "commit": "ijkl123",
+    "metadata": {
+      "affectedService": "Authentication"
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Session validation completed",
+    "resourceId": "server-031",
+    "timestamp": "2025-07-09T05:15",
+    "traceId": "trace-031",
+    "spanId": "span-031",
+    "commit": "mnop234",
+    "metadata": {
+      "sessionId": "session123"
+    }
+  },
+  {
+    "level": "info",
+    "message": "Data synchronization completed",
+    "resourceId": "server-032",
+    "timestamp": "2025-07-09T05:30",
+    "traceId": "trace-032",
+    "spanId": "span-032",
+    "commit": "qrst345",
+    "metadata": {
+      "syncType": "full"
+    }
+  }, {
+    "level": "error",
+    "message": "Database connection timeout",
+    "resourceId": "server-022",
+    "timestamp": "2025-07-09T03:00",
+    "traceId": "trace-022",
+    "spanId": "span-022",
+    "commit": "efgh345",
+    "metadata": {
+      "timeoutLimit": "45s"
+    }
+  },
+  {
+    "level": "error",
+    "message": "Unauthorized access attempt",
+    "resourceId": "server-026",
+    "timestamp": "2025-07-09T04:00",
+    "traceId": "trace-026",
+    "spanId": "span-026",
+    "commit": "uvwx789",
+    "metadata": {
+      "username": "unknownUser"
+    }
+  },
+  {
+    "level": "error",
+    "message": "Server crash due to unhandled exception",
+    "resourceId": "server-029",
+    "timestamp": "2025-07-09T04:45",
+    "traceId": "trace-029",
+    "spanId": "span-029",
+    "commit": "efgh012",
+    "metadata": {
+      "exceptionDetails": "NullPointerException"
+    }
+  },
+  {
+    "level": "info",
+    "message": "New user registered successfully",
+    "resourceId": "server-021",
+    "timestamp": "2025-07-09T02:45",
+    "traceId": "trace-021",
+    "spanId": "span-021",
+    "commit": "abcd234",
+    "metadata": {
+      "userId": "user001"
+    }
+  },
+  {
+    "level": "info",
+    "message": "Password reset request",
+    "resourceId": "server-024",
+    "timestamp": "2025-07-09T03:30",
+    "traceId": "trace-024",
+    "spanId": "span-024",
+    "commit": "mnop567",
+    "metadata": {
+      "userId": "user234"
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Cache cleared",
+    "resourceId": "server-025",
+    "timestamp": "2025-07-09T03:45",
+    "traceId": "trace-025",
+    "spanId": "span-025",
+    "commit": "qrst678",
+    "metadata": {
+      "cacheName": "userSessionCache"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "High memory usage detected",
+    "resourceId": "server-027",
+    "timestamp": "2025-07-09T04:15",
+    "traceId": "trace-027",
+    "spanId": "span-027",
+    "commit": "yzab890",
+    "metadata": {
+      "memoryUsage": "85%"
+    }
+  },
+  {
+    "level": "info",
+    "message": "Scheduled backup started",
+    "resourceId": "server-028",
+    "timestamp": "2025-07-09T04:30",
+    "traceId": "trace-028",
+    "spanId": "span-028",
+    "commit": "abcd901",
+    "metadata": {
+      "backupType": "incremental"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "Service degradation detected",
+    "resourceId": "server-030",
+    "timestamp": "2025-07-09T05:00",
+    "traceId": "trace-030",
+    "spanId": "span-030",
+    "commit": "ijkl123",
+    "metadata": {
+      "affectedService": "Authentication"
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Session validation completed",
+    "resourceId": "server-031",
+    "timestamp": "2025-07-09T05:15",
+    "traceId": "trace-031",
+    "spanId": "span-031",
+    "commit": "mnop234",
+    "metadata": {
+      "sessionId": "session123"
+    }
+  },
+  {
+    "level": "info",
+    "message": "Data synchronization completed",
+    "resourceId": "server-032",
+    "timestamp": "2025-07-09T05:30",
+    "traceId": "trace-032",
+    "spanId": "span-032",
+    "commit": "qrst345",
+    "metadata": {
+      "syncType": "full"
+    }
+  }
+]
